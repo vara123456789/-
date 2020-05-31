@@ -1,3 +1,28 @@
-"@media all and (max-width: 450px){
-	
+@media all and (max-width: 450px){
+	.nav-link {
+		display: none;
+	}
+
+	.Knopki{
+		padding: 40px 6px;
+	}
+
+	.second-item {
+	width: calc(100% / 1 - 2%);
+	background-color: #fff;
+	margin: 3%;
+	text-align: center;
+	transition: 0.3s ease-in;
+	}
+
+	.first-box{
+	padding: 0;
+	}
+
+	.first-item {
+	margin: 36px auto;
+	width: calc(100% / 1 - 2%);
+	margin: 3%;
+	text-align: center;
+	transition: 0.3s ease-in;
 }
