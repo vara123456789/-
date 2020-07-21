@@ -8,21 +8,33 @@
 	}
 
 	.second-item {
-	width: calc(100% / 1 - 2%);
+	/*width: calc(100% / 1 - 2%);
 	background-color: #fff;
 	margin: 3%;
 	text-align: center;
-	transition: 0.3s ease-in;
+	transition: 0.3s ease-in;*/
+	width: 90%;
+	margin:auto;
+	
 	}
 
-	.first-box{
-	padding: 0;
-	}
-
+}
 	.first-item {
 	margin: 36px auto;
 	width: calc(100% / 1 - 2%);
 	margin: 3%;
 	text-align: center;
 	transition: 0.3s ease-in;
+}
+
+	.first-box .second-box {
+	display: block;
+	display: block;
+}
+
+	.second-box {
+		margin-top: 24px;
+}
+	.section-subtitle {
+		text-align: center;
 }
